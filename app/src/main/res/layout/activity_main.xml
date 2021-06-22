@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/dark_blue"
     tools:context=".MainActivity">
 
     <FrameLayout
@@ -28,7 +29,9 @@
             android:id="@+id/bottom_nav"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@android:color/transparent"
+            android:background="@color/dark_blue_2"
+            app:itemIconTint="@color/white"
+            app:itemTextColor="@color/white"
             app:elevation="0dp"
             app:menu="@menu/bottom_nav_menu"/>
     </com.google.android.material.bottomappbar.BottomAppBar>
@@ -38,5 +41,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_law"
+        app:tint="@color/white"
+        app:backgroundTint="@color/dark_red"
         app:layout_anchor="@id/bottom_appbar" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

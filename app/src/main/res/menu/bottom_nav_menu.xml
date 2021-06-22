@@ -3,11 +3,13 @@
     <item
         android:id="@+id/home"
         android:title="@string/home"
+        android:fontFamily="@font/opensans_bold"
         android:icon="@drawable/ic_home"/>
 
     <item
         android:id="@+id/article"
         android:title="@string/artikel"
+        android:fontFamily="@font/opensans_bold"
         android:icon="@drawable/ic_article"/>
 
     <item
@@ -17,10 +19,12 @@
     <item
         android:id="@+id/forum"
         android:title="@string/forum"
+        android:fontFamily="@font/opensans_bold"
         android:icon="@drawable/ic_forum"/>
 
     <item
         android:id="@+id/profile"
         android:title="@string/profil"
+        android:fontFamily="@font/opensans_bold"
         android:icon="@drawable/ic_profile"/>
 </menu>
