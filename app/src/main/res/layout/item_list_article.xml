@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="4dp"
+        card_view:cardCornerRadius="5dp"
+        card_view:layout_constraintBottom_toBottomOf="parent"
+        card_view:layout_constraintEnd_toEndOf="parent"
+        card_view:layout_constraintStart_toStartOf="parent"
+        card_view:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_judul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/judul"
+                android:fontFamily="@font/opensans_bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/tv_pengarang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pengarang"
+                android:fontFamily="@font/opensans_regular"
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

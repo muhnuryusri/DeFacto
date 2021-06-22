@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/dark_blue"
+    tools:context=".menu.ui.detail.DetailLawActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_anchor="@+id/linearLayout"
+                app:layout_anchorGravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    app:cardBackgroundColor="@color/dark_blue_2"
+                    card_view:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/judul"
+                            android:fontFamily="@font/opensans_bold"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tv_judul_peraturan"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/judul_data"
+                            android:fontFamily="@font/opensans_light"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    app:cardBackgroundColor="@color/dark_blue_2"
+                    card_view:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/jenis_bentuk_peraturan"
+                            android:fontFamily="@font/opensans_bold"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tv_jenis_peraturan"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/jenis_peraturan_data"
+                            android:fontFamily="@font/opensans_light"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    app:cardBackgroundColor="@color/dark_blue_2"
+                    card_view:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/nomor_peraturan"
+                            android:fontFamily="@font/opensans_bold"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tv_no_peraturan"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/no_peraturan_data"
+                            android:fontFamily="@font/opensans_light"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    app:cardBackgroundColor="@color/dark_blue_2"
+                    card_view:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tempat_penetapan"
+                            android:fontFamily="@font/opensans_bold"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tv_tempat_penetapan"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tempat_penetapan_data"
+                            android:fontFamily="@font/opensans_light"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    app:cardBackgroundColor="@color/dark_blue_2"
+                    card_view:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tanggal_penetapan"
+                            android:fontFamily="@font/opensans_bold"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tv_tgl_penetapan"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tgl_penetapan_data"
+                            android:fontFamily="@font/opensans_light"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    app:cardBackgroundColor="@color/dark_blue_2"
+                    card_view:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tanggal_pengundangan"
+                            android:fontFamily="@font/opensans_bold"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tv_tgl_pengundangan"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tgl_pengundangan_data"
+                            android:fontFamily="@font/opensans_light"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    app:cardBackgroundColor="@color/dark_blue_2"
+                    card_view:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/bidang_hukum"
+                            android:fontFamily="@font/opensans_bold"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tv_bidang_hukum"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/bidang_hukum_data"
+                            android:fontFamily="@font/opensans_light"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    app:cardBackgroundColor="@color/dark_blue_2"
+                    card_view:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/bahasa"
+                            android:fontFamily="@font/opensans_bold"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tv_bahasa"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:text="@string/bahasa_data"
+                            android:fontFamily="@font/opensans_light"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    app:cardBackgroundColor="@color/dark_blue_2"
+                    card_view:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/pemrakasra"
+                            android:fontFamily="@font/opensans_bold"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tv_pemrakarsa"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/pemrakarsa_data"
+                            android:fontFamily="@font/opensans_light"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    app:cardBackgroundColor="@color/dark_blue_2"
+                    card_view:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/penandatangan"
+                            android:fontFamily="@font/opensans_bold"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tv_penandatangan"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/penandatangan_data"
+                            android:fontFamily="@font/opensans_light"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    app:cardBackgroundColor="@color/dark_blue_2"
+                    card_view:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/subjek"
+                            android:fontFamily="@font/opensans_bold"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tv_subjek"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/subjek_data"
+                            android:fontFamily="@font/opensans_light"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_pdf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:backgroundTint="@color/dark_blue_2"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/opensans_bold"
+                        android:text="@string/pdf"/>
+
+                    <Button
+                        android:id="@+id/btn_simplifikasi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/dark_blue_2"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/opensans_bold"
+                        android:text="@string/simplifikasi"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/close_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_close"
+        android:layout_gravity="center|bottom"
+        android:layout_margin="15dp"
+        android:backgroundTint="@color/white"/>
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdf_viewer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/simplifikasi"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        app:cardBackgroundColor="@color/white"
+        card_view:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/simplifikasi"
+                android:fontFamily="@font/opensans_bold"
+                android:textColor="@color/dark_blue"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_simplifikasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/subjek_data"
+                android:fontFamily="@font/opensans_light"
+                android:textColor="@color/dark_blue"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

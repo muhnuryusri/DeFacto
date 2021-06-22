@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/dark_blue"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="4dp"
+        card_view:cardCornerRadius="5dp"
+        card_view:layout_constraintBottom_toBottomOf="parent"
+        card_view:layout_constraintEnd_toEndOf="parent"
+        card_view:layout_constraintStart_toStartOf="parent"
+        card_view:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dark_blue_2"
+            android:padding="12dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/tv_nomor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:fontFamily="@font/opensans_semibold"
+                    android:text="@string/nomor"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"/>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="0dp"
+                    android:layout_alignParentEnd="true"
+                    app:cardBackgroundColor="@color/white"
+                    app:strokeColor="@color/black"
+                    app:strokeWidth="0.5dp"
+                    app:cardCornerRadius="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp">
+
+                        <TextView
+                            android:id="@+id/tv_status"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textSize="12sp"
+                            android:textColor="@color/dark_blue"
+                            android:fontFamily="@font/opensans_bold"
+                            android:text="@string/status"/>
+                    </RelativeLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_judul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/judul"
+                android:fontFamily="@font/opensans_light"
+                android:textColor="@color/white"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/tv_tanggal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tanggal"
+                android:fontFamily="@font/opensans_semibold"
+                android:textColor="@color/white"
+                android:textSize="15sp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
